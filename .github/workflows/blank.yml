@@ -1,5 +1,15 @@
-```bash
-#!/bin/bash
+```yaml
+name: Hello World
 
-echo "Hello World!"
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello World
+        run: echo "Hello World!"
 ```
