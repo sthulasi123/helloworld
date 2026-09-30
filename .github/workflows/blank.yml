@@ -1,4 +1,3 @@
-```yaml
 name: Hello World
 
 on:
@@ -12,4 +11,4 @@ jobs:
     steps:
       - name: Hello World
         run: echo "Hello World!"
-```
+
